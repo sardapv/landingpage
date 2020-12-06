@@ -42,4 +42,4 @@ Give a ⭐️ if you like my work!
 
 static view without animations and css effects
 
-![Alt text](/screens_ic_sp-min.jpg?raw=true "Demo")
+![https://sardapv.github.io/landing/](/demo.jpg?raw=true "Demo")
