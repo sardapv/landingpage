@@ -464,9 +464,9 @@ section {
       from(rgba(0, 0, 0, 0.76)),
       to(rgba(0, 0, 0, 0.76))
     ),
-    url("resources/img/back-customers.jpg");
+    url(resources/img/back-customers.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.822)),
-    url("resources/img/back-customers.jpg");
+    url(resources/img/back-customers.jpg);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
