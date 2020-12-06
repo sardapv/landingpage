@@ -40,6 +40,6 @@ Give a ⭐️ if you like my work!
 ***
 <p align="center"> Made with 💚, From Pranav. </p> <br />
 
-static view without animations and css effects
+## Static view without animations and css effects (web layout)
 
 ![https://sardapv.github.io/landing/](/demo.jpg?raw=true "Demo")
