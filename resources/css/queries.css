@@ -1,0 +1,195 @@
+/* phone to tab */
+@media only screen and (max-width: 767px) {
+  .hamburger {
+    display: block;
+    color: #fff;
+    font-size: 200%;
+    float: right;
+    padding: 18px;
+  }
+
+  .hamburger:hover,
+  .hamburger:active {
+    color: #ec0000;
+  }
+
+  .sticky-nav .hamburger:hover,
+  .sticky-nav .hamburger:active {
+    color: #fff;
+  }
+
+  .main-nav {
+    float: left;
+    margin-top: 0px;
+    margin-left: 5%;
+    margin-bottom: 10%;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .show {
+    display: block;
+  }
+
+  .main-nav li {
+    display: block;
+    margin-top: 30px;
+  }
+
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    border-bottom: 0px solid transparent;
+    border-left: 0px solid transparent;
+  }
+
+  .sticky-nav .main-nav li a:link,
+  .sticky-nav .main-nav li a:visited {
+    border-bottom: 0px solid transparent;
+    border-left: 0px solid transparent;
+  }
+
+  .main-nav li a:hover,
+  .main-nav li a:active {
+    border-bottom: 0px solid transparent;
+    border-left: 4px solid #ec0000;
+    padding: 18px;
+  }
+
+  .sticky-nav .main-nav li a:hover,
+  .sticky-nav .main-nav li a:active {
+    border-bottom: 0px solid transparent;
+    border-left: 4px solid #fff;
+    padding: 18px;
+  }
+
+  .logo,
+  .logo-white {
+    margin: 10px 10px;
+  }
+}
+
+/* small tablet to big tablet */
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+  .long-copy {
+    width: 80%;
+  }
+
+  .box {
+    padding: 10px;
+  }
+
+  .work-steps {
+    margin-bottom: 30px;
+  }
+
+  .app-screen {
+    height: 500px;
+  }
+  .btn-container {
+    text-align: center;
+  }
+  .steps-box:last-child {
+    margin-top: 75px;
+    padding-left: 2%;
+  }
+  .steps-box:first-child {
+    text-align: center;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+}
+
+/* large tab to desktop, row is 1140px */
+@media only screen and (max-width: 1200px) {
+  .hero-row-box {
+    width: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 0 4%;
+  }
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  .row {
+    padding: 0% 2%;
+  }
+
+  .contact-form {
+    width: 100%;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin: 0px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select,
+  textarea {
+    width: 100%;
+  }
+
+  .details ul li {
+    margin: 10px 0;
+    font-size: 80%;
+  }
+}
+
+/* phone only */
+@media only screen and (max-width: 480px) {
+  .steps-box:last-child {
+    margin-top: 75px;
+  }
+
+  .btn-stores {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .section-cities .box {
+    margin: 20px;
+    width: 90%;
+  }
+
+  .details ul li {
+    margin: 10px 20px;
+    font-size: 90%;
+  }
+
+  h1 {
+    font-size: 160%;
+  }
+  h2 {
+    margin-bottom: 30px;
+    font-size: 130%;
+  }
+
+  cite {
+    text-align: end;
+    margin-top: 0px;
+  }
+
+  input[type="checkbox"] {
+    margin-top: 10px;
+  }
+
+  .social-media {
+    text-align: center;
+  }
+
+  .copyright-text {
+    width: 95%;
+  }
+
+  .gallery-showcase li {
+    max-width: 50%;
+  }
+}
